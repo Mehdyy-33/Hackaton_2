@@ -1,56 +1,192 @@
-body {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: JostRegular;
+  src: url(./assets/fonts/Jost-Regular.ttf);
+}
+
+@font-face {
+  font-family: JostBold;
+  src: url(./assets/fonts/Jost-Bold.ttf);
+}
+
+:root {
+  --Vert-foncé : #485838;
+  --Vert: #93a26b;
+  --Vert-clair : #cadab8;
+  --Blanc : #fcfbfc;
+  --Bleu: #9ecdbf;
+  --Gris: #B2B0B0;
+  --Bleu-foncé : #242541;
+  --Gris-foncé-footer : #242F3E;
+  --Bleu-violet : #6B7FD7;
+  --Bleu-middle: #91C3CC;
+   --white: #ffffff;
+  --bleu: #7bc5c6;
+  --purple-dark: #4e55ad;
+  --purple-light: #93a9eb;
+  --orange: #ff5400;
+  --red: #ca2061;
+  --white: #ffffff;
+  --black: #000000;
+  --title-font-family-jost: "JostBold";
+  --text-font-family-jost: "JostRegular";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("./assets/img/workit01-fond1.png");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .App {
-  text-align: center;
+  width: 100vw;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  font-family: var(--text-font-family-jost);
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--title-font-family-jost);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-button {
-  font-size: calc(10px + 2vmin);
+.logo_workit {
+  position: absolute;
+  top: 0;
+  left: 1vw;
+  width: 11vw;
+  margin: 3vh 3vw;
 }
