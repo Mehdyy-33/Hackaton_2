@@ -1,0 +1,69 @@
+body {
+  background: var(--Gris-foncé-footer);
+
+  overflow-x: hidden;
+  font-family: "gt-america-light";
+}
+
+h3,
+li,
+a {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+p {
+  color: white;
+  font-size: large;
+  font-family: "GT-America-Light";
+}
+ul {
+  padding-left: 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 200px;
+}
+
+.footermessage {
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.info {
+  width: calc(100% / 4);
+  margin-left: 4vh;
+}
+
+.info1 {
+  padding-left: 5vw;
+}
+
+.info2 {
+  padding-left: 5vw;
+}
+
+img {
+  flex-direction: column-reverse;
+
+  height: 5vh;
+}
+.linkedinlogo {
+  margin-left: 2vh;
+}
+.twitterlogo {
+  margin-left: 2vh;
+}
+
+li {
+  font-size: medium;
+}
+
+.rights {
+  width: 100%;
+  text-align: center;
+  margin-top: 7vh;
+}

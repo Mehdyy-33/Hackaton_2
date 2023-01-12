@@ -1,0 +1,177 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-page .title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.home-page .logo {
+  width: 25vw;
+  height: auto;
+}
+
+.home-page .filter-options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+  gap: 3rem;
+  font-size: 0.7rem;
+}
+
+.home-page .trip-slogan p {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: var(--Blanc);
+}
+
+.home-page .filter-option {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  width: 15vw;
+  height: 5vh;
+  text-transform: uppercase;
+  border-radius: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.home-page .filter-option:hover {
+  box-shadow: 3px 3px 2px 1px #ff8150;
+  transform: scale(1.1);
+}
+
+.home-page .content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+  margin: 4rem 5rem;
+  margin-top: 25vh;
+}
+
+.home-page .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 200px;
+  height: 276px;
+  margin-bottom: 1rem;
+  padding: 5px;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0px 0px 3px 0px #fff;
+  box-shadow: 0px 0px 3px 0px #fff;
+  border: #fff solid 1px;
+  color: #fff;
+}
+
+.home-page .vehicle-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-weight: 600;
+  margin: 13px;
+  gap: 10px;
+}
+
+.home-page .vehicle-name {
+  width: 128px;
+}
+
+.home-page .vehicle-info p {
+  font-size: 0.9rem;
+}
+
+.home-page p:nth-child(1) {
+  text-transform: uppercase;
+}
+
+.home-page .filter-option img {
+  height: 3vh;
+}
+
+.home-page .card img {
+  width: 128px;
+  height: auto;
+}
+
+.home-page .road {
+  display: flex;
+  flex-direction: row;
+  padding-top: 8px;
+  padding-left: 3px;
+}
+
+.home-page .hour {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 12px;
+}
+
+.home-page .road-info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.home-page .road-info strong {
+  font-size: 12px;
+}
+
+.home-page .road-info p {
+  font-size: 10px;
+}
+
+.home-page .road-line {
+  display: flex;
+  background-color: #9ecdbf;
+  width: 5px;
+  margin: 0 12px;
+  border-radius: 3px;
+}
+
+.home-page .road-date p {
+  font-size: 0.6rem;
+  text-transform: none;
+}
+
+.home-page .my-trips h1 {
+  position: absolute;
+  width: 489px;
+  height: 55px;
+  left: 482px;
+  top: 400px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 86.7%;
+  text-align: center;
+  margin-left: 6vh;
+  margin-top: 8vh;
+
+  color: #ec7211;
+}

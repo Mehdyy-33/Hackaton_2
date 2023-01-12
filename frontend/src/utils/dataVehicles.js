@@ -14,7 +14,6 @@ import voiture13 from "../assets/voiture-13.png";
 import voiture14 from "../assets/voiture-14.png";
 import velo1 from "../assets/velo-1.png";
 import scooter1 from "../assets/scooter-1.png";
-import orange from "../assets/orange.jpg";
 
 const data = {
   vehicles: [
@@ -24,7 +23,6 @@ const data = {
       modele: "208",
       name: "Peugeot 208",
       image: voiture1,
-      companyLogo: orange,
     },
     {
       id: 2,
@@ -32,7 +30,6 @@ const data = {
       modele: "A1 Sportback",
       name: "Audi A1 Sportback",
       image: voiture2,
-      companyLogo: orange,
     },
     {
       id: 3,
@@ -40,7 +37,6 @@ const data = {
       modele: "Série 1",
       name: "BMW Série 1",
       image: voiture3,
-      companyLogo: orange,
     },
     {
       id: 4,
@@ -48,7 +44,6 @@ const data = {
       modele: "Passat Estate",
       name: "VW Passat Estate",
       image: voiture4,
-      companyLogo: orange,
     },
     {
       id: 5,
@@ -56,7 +51,6 @@ const data = {
       modele: "Golf",
       name: "VW Golf",
       image: voiture5,
-      companyLogo: orange,
     },
     {
       id: 6,
@@ -64,7 +58,6 @@ const data = {
       modele: "500",
       name: "Fiat 500",
       image: voiture6,
-      companyLogo: orange,
     },
     {
       id: 7,
@@ -122,6 +115,7 @@ const data = {
       name: "BMW 7 Series",
       image: voiture14,
     },
+
     {
       id: 15,
       marque: "Trek",
