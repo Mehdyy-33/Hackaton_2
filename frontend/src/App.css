@@ -146,10 +146,7 @@ body {
   padding: 0;
   width: 100vw;
   height: 100vh;
-  overflow-x: hidden;
-  background-color: var(--Bleu-foncé);
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: #242541;
 }
 
 .App {
