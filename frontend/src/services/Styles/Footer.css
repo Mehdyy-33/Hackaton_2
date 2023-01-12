@@ -1,56 +1,66 @@
-body {
-  background: var(--Gris-foncé-footer);
-
-  overflow-x: hidden;
-  font-family: "gt-america-light";
+.footer {
+  background: #313b48;
+  padding: 2rem;
 }
 
-h3,
-li,
-a {
+.footer h3,
+.footer li,
+.footer a {
   color: white;
   list-style: none;
   text-decoration: none;
 }
 
-p  {
-   color: white;
-  font-size: large;
+.footer p {
+  color: white;
   font-family: "GT-America-Light";
 }
-ul {
+
+.footer ul {
   padding-left: 0;
+  font-size: 0.6rem;
 }
 
-footer {
+.footer {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
+  align-items: center;
   margin-top: 200px;
+}
+
+.footer .content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .footermessage {
   font-weight: bolder;
-  font-size: x-large;
+  font-family: "GT-America-Light";
+  font-size: 1rem;
 }
 
-.info {
+.footer .info {
   width: calc(100% / 4);
   margin-left: 4vh;
 }
 
-.info1 {
+.footer .info1 {
   padding-left: 5vw;
 }
 
-.info2 {
+.footer .info2 {
   padding-left: 5vw;
+  font-size: 0.8rem;
 }
 
-img {
+.footer img {
   flex-direction: column-reverse;
-
   height: 5vh;
 }
+
 .linkedinlogo {
   margin-left: 2vh;
 }
@@ -58,11 +68,11 @@ img {
   margin-left: 2vh;
 }
 
-li {
-  font-size: medium;
+.footer li {
+  font-size: 0.7rem;
 }
 
-.rights {
+.footer .rights {
   width: 100%;
   text-align: center;
   margin-top: 7vh;

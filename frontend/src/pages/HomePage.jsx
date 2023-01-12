@@ -28,6 +28,14 @@ function HomePage() {
         {data.vehicles.map((vehicle) => (
           <div index={vehicle.id} className="card bc-violet-blue">
             <img src={vehicle.image} alt={vehicle.name} />
+            <div className="company-logo">
+              <img src={vehicle.companyLogo} alt="company" />
+            </div>
+            <img
+              src={vehicle.image}
+              alt={vehicle.name}
+              className="vehicle-image"
+            />
             <div className="vehicle-info">
               <div className="road-date">
                 <p>06/12/2023</p>
