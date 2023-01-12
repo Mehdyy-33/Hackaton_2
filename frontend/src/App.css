@@ -134,17 +134,17 @@ table {
 }
 
 :root {
-  --Vert-foncé : #485838;
+  --Vert-foncé: #485838;
   --Vert: #93a26b;
-  --Vert-clair : #cadab8;
-  --Blanc : #fcfbfc;
+  --Vert-clair: #cadab8;
+  --Blanc: #fcfbfc;
   --Bleu: #9ecdbf;
-  --Gris: #B2B0B0;
-  --Bleu-foncé : #242541;
-  --Gris-foncé-footer : #242F3E;
-  --Bleu-violet : #6B7FD7;
-  --Bleu-middle: #91C3CC;
-   --white: #ffffff;
+  --Gris: #b2b0b0;
+  --Bleu-foncé: #242541;
+  --Gris-foncé-footer: #242f3e;
+  --Bleu-violet: #6b7fd7;
+  --Bleu-middle: #91c3cc;
+  --white: #ffffff;
   --bleu: #7bc5c6;
   --purple-dark: #4e55ad;
   --purple-light: #93a9eb;
