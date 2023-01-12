@@ -11,6 +11,9 @@ const HomePage = () => {
       <div className="title">
         <img src={logo} alt="logo" className="logo" />
       </div>
+      <div className="slogan">
+        <p>An eco-responsible transport solution for individuals</p>
+      </div>
       <div className="filter-options">
         <div className="filter-option bc-middle-blue">
           <p>To rent</p>
