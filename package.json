@@ -19,7 +19,7 @@
     "husky": "^7.0.0"
   },
   "dependencies": {
+    "express-validator": "^6.14.2",
     "react-router-dom": "^6.6.2"
-    
   }
 }

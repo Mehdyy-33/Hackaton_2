@@ -6,10 +6,12 @@ import "./App.css";
 // import "./assets/fonts/GT-America-Bold.otf";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import MyTrips from "./pages/MyTrips";
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Navbar />
       <Router>
         <Routes>
@@ -17,6 +19,7 @@ function App() {
           <Route path="/ToRent" element={<ToRent />} />
           <Route path="/loginUser" element={<LoginUser />} />
           <Route path="/loginFirm" element={<LoginUser />} />
+          <Route path="/MyTrips" element={<MyTrips />} />
         </Routes>
       </Router>
       <Footer />

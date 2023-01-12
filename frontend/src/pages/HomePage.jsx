@@ -27,6 +27,7 @@ function HomePage() {
       <div className="content">
         {data.vehicles.map((vehicle) => (
           <div index={vehicle.id} className="card bc-violet-blue">
+            <img src={vehicle.image} alt={vehicle.name} />
             <div className="company-logo">
               <img src={vehicle.companyLogo} alt="company" />
             </div>
