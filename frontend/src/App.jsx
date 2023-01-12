@@ -3,6 +3,7 @@ import LoginUser from "@pages/LoginUser";
 import "./App.css";
 import Footer from "./components/Footer";
 import "./assets/fonts/GT-America-Bold.otf";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
           <Route path="/loginFirm" element={<LoginUser />} />
         </Routes>
       </Router>
-      <Footer />
+      <Navbar />
+      {/* <Footer /> */}
     </div>
   );
 }
