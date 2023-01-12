@@ -2,7 +2,6 @@ import React from "react";
 import "../assets/css/footer.css";
 import "../App.css";
 
-
 function Footer() {
   return (
     <div>
