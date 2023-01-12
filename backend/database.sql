@@ -35,9 +35,10 @@ CREATE TABLE `user` (
     `role_id` INT DEFAULT 4 NOT NULL ,
     `firstname` VARCHAR(200)  NOT NULL ,
     `lastname` VARCHAR(200)  NULL ,
+     `city` VARCHAR(200)  NULL ,
     `adress` VARCHAR(200)  NULL ,
     `phone` VARCHAR(12)  NULL ,
-    `mail` VARCHAR(200)  NOT NULL ,
+    `email` VARCHAR(200)  NOT NULL ,
     `password` VARCHAR(200)  NOT NULL ,
     `traveller_note` VARCHAR(500)  NULL ,
     PRIMARY KEY (

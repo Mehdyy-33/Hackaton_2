@@ -23,7 +23,8 @@ const userController = {
 
   createUser: async (req, res, next) => {
     const errors = validationResult(req);
-    const { role_id, firstname, lastname, city, email, password } = req.body;
+    const { firstname, lastname, city, email, password } = req.body;
+    console.log(req.body)
     const hashedPassword = await argon2.hash(password);
     if (!errors.isEmpty()) {
       return res.status(400).json({ errors: errors.array() });
@@ -31,7 +32,6 @@ const userController = {
     try {
       userModel
         .createOne({
-          role_id,
           firstname,
           lastname,
           city,
