@@ -1,17 +1,19 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import LoginUser from "@pages/LoginUser";
-import Home from "./pages/Home";
 import "./App.css";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/loginUser" element={<LoginUser />} />
-        <Route path="/loginFirm" element={<LoginUser />} />
-      </Routes>
-    </Router>
+    <div className="App">
+      <Router>
+        <Routes>
+          <Route path="/loginUser" element={<LoginUser />} />
+          <Route path="/loginFirm" element={<LoginUser />} />
+        </Routes>
+      </Router>
+      <Footer />
+    </div>
   );
 }
 
