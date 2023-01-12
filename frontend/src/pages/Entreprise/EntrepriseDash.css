@@ -1,0 +1,166 @@
+#fullContainer {
+  display: flex;
+  flex-direction: row;
+  background: #242541;
+}
+#activeOrderBtn {
+  background: #91c3cc;
+  border: 0px solid #daddfc;
+  backdrop-filter: blur(20px);
+  /* Note: backdrop-filter has minimal browser support */
+  font-family: "GT America Trial";
+  font-style: normal;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 20px;
+  border-radius: 60px;
+  min-width: 10vw;
+}
+#noOrderBtn {
+  background: #6b7fd7;
+  border: 0px solid #daddfc;
+  color: #ffffff;
+  backdrop-filter: blur(20px);
+  /* Note: backdrop-filter has minimal browser support */
+  font-family: "GT America Trial";
+  font-style: normal;
+  font-weight: 700;
+  height: 5vh;
+  width: 10vw;
+  line-height: 20px;
+  border-radius: 60px;
+}
+.leftContainer {
+  min-width: 18vw;
+  height: 100%;
+}
+/* .topContainer {
+  display: flex;
+  justify-content: space-around;
+} */
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 9vh;
+}
+.activityButtons {
+  padding-top: 10vh;
+  display: flex;
+  gap: 2vw;
+  padding-left: 19vw;
+}
+#ad {
+  height: 2vw;
+  margin-top: 5vh;
+  font-size: 1rem;
+  background-color: #ec7211;
+  color: #ffffff;
+  min-width: 8vw;
+}
+#manage {
+  height: 2vw;
+  margin-top: 5vh;
+  font-size: 1rem;
+  background: #5e609d;
+
+  color: #ffffff;
+  min-width: 8vw;
+}
+body {
+}
+.adsContainer {
+  display: flex;
+}
+
+.deleteModifyBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 6vw;
+  padding-top: 6vh;
+  gap: 4vh;
+}
+
+.ads {
+  display: flex;
+  min-width: 61vw;
+  height: 22vh;
+  max-width: 61vw;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  margin: auto;
+  margin-top: 5vh;
+}
+#location {
+  background: rgba(158, 205, 191, 0.7);
+}
+#covoiturage {
+  background: rgba(107, 127, 215, 0.7);
+}
+.content {
+  display: flex;
+}
+.fleet {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2vw;
+  padding-top: 2vh;
+  width: 7vw;
+}
+#carPic {
+  width: 100%;
+  height: 100%;
+}
+.allInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2vw;
+  padding-top: 2vh;
+  width: 40vw;
+}
+#actionBtn {
+  width: 10vw;
+}
+.conducteur {
+  display: flex;
+}
+.passagers {
+  display: flex;
+}
+.reservation {
+  display: flex;
+}
+h2 {
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+h3 {
+  font-size: 0.8rem;
+  padding-left: 1vw;
+  color: #ffffff;
+}
+.sideInfo {
+}
+h1 {
+  font-size: 1.5rem;
+  color: #ec7211;
+}
+
+#type {
+  padding-right: 3vw;
+  padding-top: 1vh;
+  white-space: nowrap;
+}
+button {
+  background: #ffffff;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  border: #ffffff;
+}
+.resaType {
+  max-width: 9vw;
+}
+.addDiv {
+  display: flex;
+  gap: 1vw;
+}

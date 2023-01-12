@@ -1,12 +1,13 @@
-import Home from "./pages/Home";
+import EntrepriseDash from "./pages/Entreprise/EntrepriseDash";
 
 import "./App.css";
+import EntrepriseAd from "@pages/Entreprise/EntrepiseAd";
 
 function App() {
   return (
     <div className="App">
-      <Home />
-      <p>coucou</p>
+      {/*  <EntrepriseDash /> */}
+      <EntrepriseAd />
     </div>
   );
 }
