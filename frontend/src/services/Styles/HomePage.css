@@ -48,7 +48,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 5rem;
+  gap: 4rem;
   flex-wrap: wrap;
   margin: 4rem 5rem;
 }
@@ -58,31 +58,88 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  width: 12vw;
-  height: 34vh;
+  width: 200px;
+  height: 276px;
   margin-bottom: 1rem;
   padding: 5px;
   border-radius: 1rem;
   -webkit-box-shadow: 0px 0px 3px 0px #fff;
   box-shadow: 0px 0px 3px 0px #fff;
   border: #fff solid 1px;
+  color: #fff;
 }
 
-.home-page .card-info img {
-  width: 10vw;
-  height: auto;
+.home-page .vehicle-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-weight: 600;
+  margin: 13px;
+  gap: 10px;
 }
 
 .home-page .vehicle-name {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  font-size: 1rem;
-  font-weight: 700;
-  margin: 10px;
+  width: 128px;
+}
+
+.home-page .vehicle-info p {
+  font-size: 0.9rem;
 }
 
 .home-page p:nth-child(1) {
   text-transform: uppercase;
+}
+
+.home-page .filter-option img {
+  height: 3vh;
+}
+
+.home-page .card img {
+  width: 128px;
+  height: auto;
+}
+
+.home-page .road {
+  display: flex;
+  flex-direction: row;
+  padding-top: 8px;
+  padding-left: 3px;
+}
+
+.home-page .hour {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 12px;
+}
+
+.home-page .road-info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.home-page .road-info strong {
+  font-size: 12px;
+}
+
+.home-page .road-info p {
+  font-size: 10px;
+}
+
+.home-page .road-line {
+  display: flex;
+  background-color: #9ecdbf;
+  width: 5px;
+  margin: 0 12px;
+  border-radius: 3px;
+}
+
+.home-page .road-date p {
+  font-size: 0.6rem;
+  text-transform: none;
 }

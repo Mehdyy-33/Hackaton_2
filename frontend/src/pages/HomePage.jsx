@@ -2,8 +2,8 @@ import React from "react";
 import "../services/Styles/HomePage.css";
 import data from "../utils/dataVehicles.js";
 import logo from "../assets/logo.png";
-import volant from "../assets/volant.png";
-import covoiturage from "../assets/covoiturage.png";
+import conduite from "../assets/conduite.png";
+import gens from "../assets/gens.png";
 
 const HomePage = () => {
   return (
@@ -14,21 +14,38 @@ const HomePage = () => {
       <div className="filter-options">
         <div className="filter-option bc-middle-blue">
           <p>To rent</p>
-          <img src={volant} alt="volant" />
+          <img src={conduite} alt="volant" />
         </div>
         <div className="filter-option bc-violet-blue">
           <p>Car pooling</p>
-          <img src={covoiturage} alt="covoiturage" />
+          <img src={gens} alt="covoiturage" />
         </div>
       </div>
       <div className="content">
         {data.vehicles.map((vehicle) => (
           <div index={vehicle.id} className="card bc-violet-blue">
-            <div className="card-info">
-              <img src={vehicle.image} alt={vehicle.name} />
+            <img src={vehicle.image} alt={vehicle.name} />
+            <div className="vehicle-info">
+              <div className="road-date">
+                <p>06/12/2023</p>
+              </div>
               <div className="vehicle-name">
                 <p>{vehicle.marque}</p>
                 <p>{vehicle.modele}</p>
+              </div>
+            </div>
+            <div>
+              <div className="road">
+                <div className="hour">
+                  <strong>6h00</strong>
+                  <strong>12h30</strong>
+                </div>
+                <div className="road-line"></div>
+                <div className="road-info">
+                  <strong>Bordeaux Gare Saint Jean</strong>
+                  <p>Durée du trajet : 6h</p>
+                  <strong>Aeroport Paris Charles de Gaulle</strong>
+                </div>
               </div>
             </div>
           </div>
