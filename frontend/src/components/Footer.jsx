@@ -1,5 +1,6 @@
 import React from "react";
 import "../assets/css/footer.css";
+import "../App.css";
 
 function Footer() {
   return (
@@ -7,8 +8,8 @@ function Footer() {
       <footer>
         <div className="info">
           <p className="footermessage">
-            Smartfleet, service de location de véhicule et covoiturage à
-            destination des entreprises
+            Smartfleet by AWS, service de location de véhicule et covoiturage à
+            destination des entreprises pour les particuliers
           </p>
           <br />
           <br />

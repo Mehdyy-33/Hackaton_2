@@ -1,8 +1,6 @@
 body {
   background: var(--Gris-foncé-footer);
-
   overflow-x: hidden;
-  font-family: "gt-america-light";
 }
 
 h3,
@@ -16,6 +14,7 @@ a {
 p {
   color: white;
   font-size: large;
+  font-family: "GT-America-Light";
 }
 ul {
   padding-left: 0;
@@ -30,6 +29,7 @@ footer {
 .footermessage {
   font-weight: bolder;
   font-size: x-large;
+  font-family: "GT-America-Light";
 }
 
 .info {
