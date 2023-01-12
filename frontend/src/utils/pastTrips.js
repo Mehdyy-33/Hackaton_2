@@ -6,7 +6,7 @@ import voiture2 from "../assets/voiture-6.png";
 import velo1 from "../assets/velo-1.png";
 import scooter1 from "../assets/scooter-1.png";
 
-const dataTrips = {
+const dataPastTrips = {
   vehicles: [
     {
       id: 1,
@@ -17,6 +17,7 @@ const dataTrips = {
       driver: "Jean",
       car: "BMW Série 1",
       price: 26,
+      style: "Past",
       image: voiture3,
     },
 
@@ -29,6 +30,7 @@ const dataTrips = {
       driver: "Marie",
       car: "VW Golf",
       price: 45,
+      style: "Past",
       image: voiture5,
     },
 
@@ -41,6 +43,7 @@ const dataTrips = {
       driver: "Jeremie",
       car: "Peugeot 308",
       price: 35,
+      style: "Past",
       image: voiture8,
     },
 
@@ -53,6 +56,7 @@ const dataTrips = {
       driver: "Johanna",
       car: "Audi A1 Sportback",
       price: 45,
+      style: "Past",
       image: voiture2,
     },
 
@@ -63,8 +67,8 @@ const dataTrips = {
       localisation: "Paris",
       marque: "scooter",
       modele: "125cm3",
-      name: "hugo 125cm3",
       price: 32,
+      style: "Past",
       image: scooter1,
     },
 
@@ -77,6 +81,7 @@ const dataTrips = {
       driver: "Alain",
       car: "Peugeot 208",
       price: 26,
+      style: "Past",
       image: voiture1,
     },
 
@@ -84,14 +89,13 @@ const dataTrips = {
       id: 2,
       date: "2022-08-11",
       time: "19:00",
-      departure: "Paris",
-      destination: "Lyon",
-      driver: "Gregory",
+      localisation: "Paris",
       car: "Trek VTT",
       price: 25,
+      style: "Past",
       image: velo1,
     },
   ],
 };
 
-export default dataTrips;
+export default dataPastTrips;

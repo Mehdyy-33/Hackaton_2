@@ -29,12 +29,13 @@
   font-size: 0.7rem;
 }
 
-.home-page .slogan p {
+.home-page .trip-slogan p {
   font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  color: var(--Blanc);
 }
 
 .home-page .filter-option {
@@ -51,6 +52,11 @@
   cursor: pointer;
 }
 
+.home-page .filter-option:hover {
+  box-shadow: 3px 3px 2px 1px #ff8150;
+  transform: scale(1.1);
+}
+
 .home-page .content {
   display: flex;
   flex-direction: row;
@@ -59,6 +65,7 @@
   gap: 4rem;
   flex-wrap: wrap;
   margin: 4rem 5rem;
+  margin-top: 25vh;
 }
 
 .home-page .card {
@@ -158,15 +165,13 @@
   height: 55px;
   left: 482px;
   top: 400px;
-
-  font-family: "GT America Trial";
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
   line-height: 86.7%;
-
   text-align: center;
   margin-left: 6vh;
+  margin-top: 8vh;
 
   color: #ec7211;
 }

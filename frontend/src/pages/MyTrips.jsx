@@ -4,7 +4,8 @@ import logo from "../assets/logo.png";
 import "../services/Styles/MyTrips.css";
 import conduite from "../assets/conduite.png";
 import gens from "../assets/gens.png";
-import dataTrips from "../utils/pastTrips";
+// import dataPastTrips from "../utils/pastTrips";
+import dataTripsUpcoming from "../utils/upcomingTrips";
 
 function MyTrips() {
   return (
@@ -28,16 +29,8 @@ function MyTrips() {
       <div className="my-trips">
         <h1>My trips</h1>
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <div className="content">
-        {dataTrips.vehicles.map((vehicle) => (
+      <div className="content-upcomming-trips">
+        {dataTripsUpcoming.vehicles.map((vehicle) => (
           <div index={vehicle.id} className="card bc-violet-blue">
             <img src={vehicle.image} alt={vehicle.name} />
             <div className="vehicle-info">
@@ -52,7 +45,7 @@ function MyTrips() {
             <div>
               <div className="road">
                 <div className="hour">
-                  <strong>{vehicle.duration}</strong>
+                  <strong>{vehicle.time}</strong>
                 </div>
                 <div className="road-line" />
                 <div className="road-info">
@@ -66,6 +59,36 @@ function MyTrips() {
         ))}
       </div>
     </div>
+    //    <div className="content-past-trips">
+    //    {dataPastTrips.vehicles.map((vehicle) => (
+    //      <div index={vehicle.id} className="card bc-violet-blue">
+    //        <img src={vehicle.image} alt={vehicle.name} />
+    //        <div className="vehicle-info">
+    //          <div className="road-date">
+    //            <p>{vehicle.date}</p>
+    //          </div>
+    //          <div className="vehicle-name">
+    //            <p>{vehicle.marque}</p>
+    //            <p>{vehicle.car}</p>
+    //          </div>
+    //        </div>
+    //        <div>
+    //          <div className="road">
+    //            <div className="hour">
+    //              <strong>{vehicle.time}</strong>
+    //            </div>
+    //            <div className="road-line" />
+    //            <div className="road-info">
+    //              <strong>{vehicle.departure}</strong>
+    //              <strong>{vehicle.destination}</strong>
+    //              <strong>{vehicle.price}</strong>
+    //            </div>
+    //          </div>
+    //        </div>
+    //      </div>
+    //    ))}
+    //  </div>
+    //  </div>
   );
 }
 
