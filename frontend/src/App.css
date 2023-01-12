@@ -155,6 +155,7 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: #242541;
+  overflow-x : hidden;
 }
 
 .App {
@@ -191,3 +192,4 @@ h6 {
 .bc-violet-blue {
   background-color: #6b7fd7;
 }
+

@@ -10,6 +10,7 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Router>
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -17,8 +18,8 @@ function App() {
           <Route path="/loginFirm" element={<LoginUser />} />
         </Routes>
       </Router>
-      <Navbar />
-      {/* <Footer /> */}
+      
+       <Footer /> 
     </div>
   );
 }
