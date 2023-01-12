@@ -144,6 +144,9 @@ table {
 body {
   margin: 0;
   padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-x : hidden;
   background-color: var(--Bleu-foncé);
   background-size: cover;
   background-attachment: fixed;
@@ -175,3 +178,4 @@ h6 {
 .bc-violet-blue {
   background-color: #6b7fd7;
 }
+

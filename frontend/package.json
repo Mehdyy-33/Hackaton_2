@@ -30,7 +30,7 @@
     "eslint-plugin-react-hooks": "^4.3.0",
     "husky": "^7.0.0",
     "prettier": "^2.5.1",
-    "vite": "^2.8.0",
-    "react-router-dom": "^6.6.2"
+    "react-router-dom": "^6.6.2",
+    "vite": "^2.8.0"
   }
 }

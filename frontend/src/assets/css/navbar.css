@@ -1,0 +1,23 @@
+.smartfleetlogoblue{
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    border : red solid;
+    position: relative;
+    
+}
+.logoheight{
+    height: 30vw;
+}
+.navbarmenu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    margin-right: 5vw;
+    border: solid white 1px;
+    padding: 2vh 5vh;
+    border-radius: 10%;
+    margin-top: 3vh;
+    ;
+}

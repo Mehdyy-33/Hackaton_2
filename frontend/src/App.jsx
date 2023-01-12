@@ -8,6 +8,7 @@ import MyTrips from "./pages/MyTrips";
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Router>
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -17,7 +18,10 @@ function App() {
           <Route path="/MyTrips" element={<MyTrips />} />
         </Routes>
       </Router>
-      <Footer />
+
+      
+       <Footer /> 
+
     </div>
   );
 }
