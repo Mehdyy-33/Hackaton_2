@@ -1,11 +1,11 @@
 import React from "react";
-import "../services/Styles/HomePage.css";
-import data from "../utils/dataVehicles.js";
+import "../styles/HomePage.css";
+import data from "../utils/dataVehicles";
 import logo from "../assets/logo.png";
 import conduite from "../assets/conduite.png";
 import gens from "../assets/gens.png";
 
-const HomePage = () => {
+function HomePage() {
   return (
     <div className="home-page">
       <div className="title">
@@ -50,7 +50,7 @@ const HomePage = () => {
                   <strong>6h00</strong>
                   <strong>12h30</strong>
                 </div>
-                <div className="road-line"></div>
+                <div className="road-line" />
                 <div className="road-info">
                   <strong>Bordeaux Gare Saint Jean</strong>
                   <p>Durée du trajet : 6h</p>
@@ -63,6 +63,6 @@ const HomePage = () => {
       </div>
     </div>
   );
-};
+}
 
 export default HomePage;

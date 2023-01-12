@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../services/Styles/connexion.css";
+import "../styles/connexion.css";
 
 function LoginUser() {
   const [email, setEmail] = useState();
@@ -9,7 +9,8 @@ function LoginUser() {
 
   return (
     <div className="connexionUser">
-      <h1>Sign in</h1>
+      <h1>Connect yourself</h1>
+      <h3>to your personal space</h3>
       <form
         name="connexion"
         method="post"

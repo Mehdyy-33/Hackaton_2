@@ -1,7 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
-
 html,
-body,
 div,
 span,
 applet,
@@ -103,9 +100,6 @@ section {
   display: block;
 }
 
-body {
-  line-height: 1;
-}
 ol,
 ul {
   list-style: none;
@@ -126,35 +120,32 @@ table {
   border-spacing: 0;
 }
 
+@font-face {
+  font-family: Merriweather Sans;
+  src: url(./assets/fonts/MerriweatherSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: Merriweather Sans Bold;
+  src: url(./assets/fonts/MerriweatherSans-Bold.ttf);
+}
+
 :root {
-  --Vert-foncé: #485838;
-  --Vert: #93a26b;
-  --Vert-clair: #cadab8;
   --Blanc: #fcfbfc;
-  --Bleu: #9ecdbf;
-  --Gris: #b2b0b0;
   --Bleu-foncé: #242541;
-  --Gris-foncé-footer: #242f3e;
-  --Bleu-violet: #6b7fd7;
+  --Gris-foncé: #242f3e;
+  --Blue-violet: #6b7fd7;
   --Bleu-middle: #91c3cc;
-  --white: #ffffff;
-  --bleu: #7bc5c6;
-  --purple-dark: #4e55ad;
-  --purple-light: #93a9eb;
-  --orange: #ff5400;
-  --red: #ca2061;
-  --white: #ffffff;
-  --black: #000000;
-  --title-font-family-jost: "JostBold";
-  --text-font-family-jost: "JostRegular";
+  --text-font-Merriweather-Sans: "Merriweather Sans";
+  --title-font-Merriweather-Sans-Bold: "Merriweather Sans Bold";
 }
 
 body {
   margin: 0;
   padding: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: #242541;
+  background-color: var(--Bleu-foncé);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .App {
@@ -162,9 +153,8 @@ body {
   height: 100vh;
 }
 
-*,
-p {
-  font-family: "Merriweather Sans", sans-serif !important;
+* {
+  font-family: var(--text-font-Merriweather-Sans);
   box-sizing: border-box;
 }
 
@@ -174,14 +164,7 @@ h3,
 h4,
 h5,
 h6 {
-}
-
-.logo_workit {
-  position: absolute;
-  top: 0;
-  left: 1vw;
-  width: 11vw;
-  margin: 3vh 3vw;
+  font-family: var(--title-font-Merriweather-Sans-Bold);
 }
 
 .bc-middle-blue {
