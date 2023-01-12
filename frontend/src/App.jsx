@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import LoginUser from "@pages/LoginUser";
+import LoginUser from "./pages/LoginUser";
 import "./App.css";
 import Footer from "./components/Footer";
 
