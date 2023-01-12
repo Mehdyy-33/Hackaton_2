@@ -3,8 +3,7 @@ import LoginUser from "./pages/LoginUser";
 import HomePage from "./pages/HomePage";
 import ToRent from "./pages/ToRent";
 import "./App.css";
-import Footer from "./components/Footer";
-import "./assets/fonts/GT-America-Bold.otf";
+// import "./assets/fonts/GT-America-Bold.otf";
 import Navbar from "./components/Navbar";
 
 function App() {
