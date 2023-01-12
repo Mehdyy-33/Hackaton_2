@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
 html,
 body,
 div,
@@ -102,10 +104,15 @@ section {
 }
 body {
   line-height: 1;
+  
+  
+  
 }
 ol,
 ul {
   list-style: none;
+  
+ 
 }
 blockquote,
 q {
@@ -123,15 +130,7 @@ table {
   border-spacing: 0;
 }
 
-@font-face {
-  font-family: JostRegular;
-  src: url(./assets/fonts/Jost-Regular.ttf);
-}
 
-@font-face {
-  font-family: JostBold;
-  src: url(./assets/fonts/Jost-Bold.ttf);
-}
 
 :root {
   --Vert-foncé : #485838;
@@ -159,18 +158,21 @@ table {
 body {
   margin: 0;
   padding: 0;
-  background-image: url("./assets/img/workit01-fond1.png");
+  background-image: url("./assets//images/Logo-smartfleet.png");
   background-size: cover;
   background-attachment: fixed;
+  
+  
 }
 
 .App {
   width: 100vw;
   height: 100vh;
+  
 }
 
 * {
-  font-family: var(--text-font-family-jost);
+  font-family: 'Merriweather Sans', sans-serif;
   box-sizing: border-box;
 }
 
@@ -180,7 +182,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--title-font-family-jost);
+
 }
 
 .logo_workit {
@@ -189,4 +191,8 @@ h6 {
   left: 1vw;
   width: 11vw;
   margin: 3vh 3vw;
+}
+
+* {
+ 
 }

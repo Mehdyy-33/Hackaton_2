@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import LoginUser from "@pages/LoginUser";
 import "./App.css";
 import Footer from "./components/Footer";
+import "./assets/fonts/GT-America-Bold.otf";
 
 function App() {
   return (
