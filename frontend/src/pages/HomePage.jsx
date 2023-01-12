@@ -1,64 +1,53 @@
 import React from "react";
-// import Navbar from "../components/Navbar";
+import "../services/Styles/HomePage.css";
+import data from "../utils/dataVehicles";
 import logo from "../assets/logo.png";
-import "../services/Styles/MyTrips.css";
 import conduite from "../assets/conduite.png";
 import gens from "../assets/gens.png";
-import dataTrips from "../utils/pastTrips";
 
-function MyTrips() {
+function HomePage() {
   return (
     <div className="home-page">
       <div className="title">
         <img src={logo} alt="logo" className="logo" />
       </div>
-      <div className="trip-slogan">
+      <div className="slogan">
         <p>An eco-responsible transport solution for individuals</p>
       </div>
       <div className="filter-options">
         <div className="filter-option bc-middle-blue">
-          <p>UPCOMING</p>
-          <img src={conduite} alt="upcoming" />
+          <p>To rent</p>
+          <img src={conduite} alt="volant" />
         </div>
         <div className="filter-option bc-violet-blue">
-          <p>PAST</p>
-          <img src={gens} alt="past" />
+          <p>Car pooling</p>
+          <img src={gens} alt="covoiturage" />
         </div>
       </div>
-      <div className="my-trips">
-        <h1>My trips</h1>
-      </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
       <div className="content">
-        {dataTrips.vehicles.map((vehicle) => (
+        {data.vehicles.map((vehicle) => (
           <div index={vehicle.id} className="card bc-violet-blue">
             <img src={vehicle.image} alt={vehicle.name} />
             <div className="vehicle-info">
               <div className="road-date">
-                <p>{vehicle.date}</p>
+                <p>06/12/2023</p>
               </div>
               <div className="vehicle-name">
                 <p>{vehicle.marque}</p>
-                <p>{vehicle.car}</p>
+                <p>{vehicle.modele}</p>
               </div>
             </div>
             <div>
               <div className="road">
                 <div className="hour">
-                  <strong>{vehicle.duration}</strong>
+                  <strong>6h00</strong>
+                  <strong>12h30</strong>
                 </div>
                 <div className="road-line" />
                 <div className="road-info">
-                  <strong>{vehicle.departure}</strong>
-                  <strong>{vehicle.destination}</strong>
-                  <strong>{vehicle.price}</strong>
+                  <strong>Bordeaux Gare Saint Jean</strong>
+                  <p>Durée du trajet : 6h</p>
+                  <strong>Aeroport Paris Charles de Gaulle</strong>
                 </div>
               </div>
             </div>
@@ -69,4 +58,4 @@ function MyTrips() {
   );
 }
 
-export default MyTrips;
+export default HomePage;
