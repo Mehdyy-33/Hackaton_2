@@ -26,7 +26,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 .footer .content {
@@ -76,8 +76,4 @@
   width: 100%;
   text-align: center;
   margin-top: 7vh;
-}
-
-ul {
-  padding-left: 0;
 }
