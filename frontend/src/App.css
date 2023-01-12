@@ -102,6 +102,7 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
@@ -182,5 +183,10 @@ h6 {
   margin: 3vh 3vw;
 }
 
-* {
+.bc-middle-blue {
+  background-color: #91c3cc;
+}
+
+.bc-violet-blue {
+  background-color: #6b7fd7;
 }

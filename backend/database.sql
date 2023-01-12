@@ -1,5 +1,6 @@
 CREATE TABLE `employee` (
     `id` INT AUTO_INCREMENT NOT NULL ,
+    `role_id` INT DEFAULT 3 NOT NULL ,
     `firstname` VARCHAR(200)  NULL ,
     `adress` VARCHAR(200)NULL  NOT NULL ,
     `phone` VARCHAR(12)NULL  NOT NULL ,
@@ -14,6 +15,7 @@ CREATE TABLE `employee` (
 
 CREATE TABLE `firm` (
     `id` INT AUTO_INCREMENT NOT NULL ,
+    `role_id` INT DEFAULT 2 NOT NULL ,
     `name` VARCHAR(200)  NOT NULL ,
     `adress` VARCHAR(200)  NULL ,
     `phone` VARCHAR(12)  NULL ,
@@ -28,8 +30,9 @@ CREATE TABLE `firm` (
     )
 );
 
-CREATE TABLE `traveller` (
+CREATE TABLE `user` (
     `id` INT AUTO_INCREMENT NOT NULL ,
+    `role_id` INT DEFAULT 4 NOT NULL ,
     `firstname` VARCHAR(200)  NOT NULL ,
     `lastname` VARCHAR(200)  NULL ,
     `adress` VARCHAR(200)  NULL ,
@@ -41,6 +44,21 @@ CREATE TABLE `traveller` (
         `id`
     )
 );
+
+CREATE TABLE `admin` (
+    `id` INT AUTO_INCREMENT NOT NULL ,
+    `role_id` INT DEFAULT 1 NOT NULL ,
+    `firstname` VARCHAR(200)  NULL ,
+    `lastname` VARCHAR(200)  NULL ,
+    `adress` VARCHAR(200)  NULL ,
+    `phone` VARCHAR(12)  NULL ,
+    `mail` VARCHAR(200)  NOT NULL ,
+    `password` VARCHAR(200)  NOT NULL ,
+    PRIMARY KEY (
+        `id`
+    )
+);
+
 
 CREATE TABLE `car` (
     `id` INT AUTO_INCREMENT NOT NULL ,
