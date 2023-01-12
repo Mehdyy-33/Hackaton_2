@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
 
 html,
 body,
@@ -102,17 +102,13 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
-  
-  
-  
 }
 ol,
 ul {
   list-style: none;
-  
- 
 }
 blockquote,
 q {
@@ -129,8 +125,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
-
 
 :root {
   --Vert-foncé: #485838;
@@ -161,18 +155,15 @@ body {
   background-image: url("./assets//images/Logo-smartfleet.png");
   background-size: cover;
   background-attachment: fixed;
-  
-  
 }
 
 .App {
   width: 100vw;
   height: 100vh;
-  
 }
 
 * {
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   box-sizing: border-box;
 }
 
@@ -182,7 +173,6 @@ h3,
 h4,
 h5,
 h6 {
-
 }
 
 .logo_workit {
@@ -193,6 +183,10 @@ h6 {
   margin: 3vh 3vw;
 }
 
-* {
- 
+.bc-middle-blue {
+  background-color: #91c3cc;
+}
+
+.bc-violet-blue {
+  background-color: #6b7fd7;
 }
