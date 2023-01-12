@@ -15,6 +15,9 @@ import voiture14 from "../assets/voiture-14.png";
 import velo1 from "../assets/velo-1.png";
 import scooter1 from "../assets/scooter-1.png";
 import orange from "../assets/orange.jpg";
+import edf from "../assets/edf.webp";
+import pizza from "../assets/pizza.png";
+import trek from "../assets/trek.png";
 
 const data = {
   vehicles: [
@@ -24,7 +27,8 @@ const data = {
       modele: "208",
       name: "Peugeot 208",
       image: voiture1,
-      companyLogo: orange,
+      companyLogo: edf,
+      type: 1,
     },
     {
       id: 2,
@@ -33,6 +37,7 @@ const data = {
       name: "Audi A1 Sportback",
       image: voiture2,
       companyLogo: orange,
+      type: 1,
     },
     {
       id: 3,
@@ -41,6 +46,7 @@ const data = {
       name: "BMW Série 1",
       image: voiture3,
       companyLogo: orange,
+      type: 1,
     },
     {
       id: 4,
@@ -49,6 +55,7 @@ const data = {
       name: "VW Passat Estate",
       image: voiture4,
       companyLogo: orange,
+      type: 1,
     },
     {
       id: 5,
@@ -57,6 +64,7 @@ const data = {
       name: "VW Golf",
       image: voiture5,
       companyLogo: orange,
+      type: 1,
     },
     {
       id: 6,
@@ -65,6 +73,7 @@ const data = {
       name: "Fiat 500",
       image: voiture6,
       companyLogo: orange,
+      type: 1,
     },
     {
       id: 7,
@@ -72,6 +81,8 @@ const data = {
       modele: "Fortwo",
       name: "Smart Fortwo",
       image: voiture7,
+      companyLogo: edf,
+      type: 1,
     },
     {
       id: 8,
@@ -79,6 +90,8 @@ const data = {
       modele: "308",
       name: "Peugeot 308",
       image: voiture8,
+      companyLogo: edf,
+      type: 1,
     },
     {
       id: 9,
@@ -86,6 +99,8 @@ const data = {
       modele: "Model 3",
       name: "Tesla Model 3",
       image: voiture9,
+      companyLogo: edf,
+      type: 1,
     },
     {
       id: 10,
@@ -93,6 +108,8 @@ const data = {
       modele: "Classe C",
       name: "Mercedes Classe C",
       image: voiture10,
+      companyLogo: edf,
+      type: 1,
     },
     {
       id: 11,
@@ -100,6 +117,8 @@ const data = {
       modele: "Model Y",
       name: "Tesla Model Y",
       image: voiture11,
+      companyLogo: orange,
+      type: 1,
     },
     {
       id: 12,
@@ -107,6 +126,8 @@ const data = {
       modele: "T-Roc",
       name: "VW T-Roc",
       image: voiture12,
+      companyLogo: orange,
+      type: 1,
     },
     {
       id: 13,
@@ -114,6 +135,8 @@ const data = {
       modele: "508",
       name: "Peugeot 508",
       image: voiture13,
+      companyLogo: orange,
+      type: 1,
     },
     {
       id: 14,
@@ -121,6 +144,8 @@ const data = {
       modele: "7 Series",
       name: "BMW 7 Series",
       image: voiture14,
+      companyLogo: edf,
+      type: 1,
     },
     {
       id: 15,
@@ -128,13 +153,17 @@ const data = {
       modele: "VTT",
       name: "Trek VTT",
       image: velo1,
+      companyLogo: trek,
+      type: 2,
     },
     {
       id: 16,
-      marque: "scooter",
+      marque: "Yugo",
       modele: "125cm3",
-      name: "hugo 125cm3",
+      name: "Hugo 125cm3",
       image: scooter1,
+      companyLogo: pizza,
+      type: 2,
     },
   ],
 };
