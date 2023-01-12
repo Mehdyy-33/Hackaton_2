@@ -1,11 +1,9 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import LoginUser from "@pages/LoginUser";
-import HomePage from "./pages/HomePage";
-
+import LoginUser from "./pages/LoginUser";
 import "./App.css";
 import Footer from "./components/Footer";
-import "./assets/fonts/GT-America-Bold.otf";
-import Navbar from "./components/Navbar";
+import HomePage from "./pages/HomePage";
+import MyTrips from "./pages/MyTrips";
 
 function App() {
   return (
@@ -13,11 +11,12 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/loginUser" element={<LoginUser />} />
           <Route path="/loginFirm" element={<LoginUser />} />
+          <Route path="/MyTrips" element={<MyTrips />} />
         </Routes>
       </Router>
-      <Navbar />
       <Footer />
     </div>
   );

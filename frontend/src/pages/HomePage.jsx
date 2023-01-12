@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/HomePage.css";
+import "../services/Styles/HomePage.css";
 import data from "../utils/dataVehicles";
 import logo from "../assets/logo.png";
 import conduite from "../assets/conduite.png";
@@ -27,6 +27,7 @@ function HomePage() {
       <div className="content">
         {data.vehicles.map((vehicle) => (
           <div index={vehicle.id} className="card bc-violet-blue">
+            <img src={vehicle.image} alt={vehicle.name} />
             <div className="company-logo">
               <img src={vehicle.companyLogo} alt="company" />
             </div>
