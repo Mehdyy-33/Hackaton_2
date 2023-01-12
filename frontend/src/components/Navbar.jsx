@@ -1,14 +1,15 @@
 import React from "react";
-
-import "../assets/css/navbar.css";
+import "../App.css";
+import "../styles/navbar.css";
 
 function Navbar() {
   return (
-    <div>
-      <img
-        src="../assets/images/Logo-smartfleetbleu2.png"
+    <div className="smartfleetlogoblue">
+      <img className="logoheight"
+        src="../src/assets/images/Logo-smartfleetbleu2.png"
         alt="smartfleetlogo"
       />
+    <div className="navbarmenu">My trips</div>
     </div>
   );
 }
