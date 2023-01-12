@@ -152,9 +152,9 @@ table {
 body {
   margin: 0;
   padding: 0;
-  background-image: url("./assets//images/Logo-smartfleet.png");
-  background-size: cover;
-  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: #242541;
 }
 
 .App {
@@ -162,8 +162,9 @@ body {
   height: 100vh;
 }
 
-* {
-  font-family: "Merriweather Sans", sans-serif;
+*,
+p {
+  font-family: "Merriweather Sans", sans-serif !important;
   box-sizing: border-box;
 }
 

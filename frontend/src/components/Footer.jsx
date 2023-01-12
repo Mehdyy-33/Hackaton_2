@@ -1,11 +1,11 @@
 import React from "react";
-import "../assets/css/footer.css";
+import "../services/Styles/footer.css";
 import "../App.css";
 
 function Footer() {
   return (
-    <div>
-      <footer>
+    <div className="footer">
+      <div className="content">
         <div className="info">
           <p className="footermessage">
             Smartfleet by AWS, service de location de véhicule et covoiturage à
@@ -65,8 +65,8 @@ function Footer() {
             alt="twitterlogo"
           />
         </div>
-      </footer>
-      <p className="rights">smartfleet © 2023 - Tous droits réservés</p>
+      </div>
+      <p className="rights">SmartFleet © 2023 - Tous droits réservés</p>
     </div>
   );
 }
