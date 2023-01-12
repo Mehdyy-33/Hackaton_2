@@ -25,7 +25,6 @@ const userController = {
     const errors = validationResult(req);
     const { role_id, firstname, lastname, city, email, password } = req.body;
     const hashedPassword = await argon2.hash(password);
-    console.log(payload, "payload")
     if (!errors.isEmpty()) {
       return res.status(400).json({ errors: errors.array() });
     }

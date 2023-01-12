@@ -10,9 +10,6 @@ const emailValidator = require("../middlewares/Validator"); */
 userRouter.post("/login", userController.login);
 userRouter.get("/", userController.getAllUsers);
 userRouter.get("/:id", userController.getUserById);
-userRouter.post(
-  "/create",
-  userController.createUser
-);
+userRouter.post("/create", userController.createUser);
 
 module.exports = userRouter;
