@@ -30,11 +30,11 @@
 }
 
 .home-page .slogan p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  text-transform: uppercase;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  color: #fff;
 }
 
 .home-page .filter-option {
@@ -69,7 +69,7 @@
   width: 200px;
   height: 276px;
   margin-bottom: 1rem;
-  padding: 5px;
+  padding: 4px;
   border-radius: 1rem;
   -webkit-box-shadow: 0px 0px 3px 0px #fff;
   box-shadow: 0px 0px 3px 0px #fff;
@@ -95,15 +95,11 @@
   font-size: 0.9rem;
 }
 
-.home-page p:nth-child(1) {
-  text-transform: uppercase;
-}
-
 .home-page .filter-option img {
   height: 3vh;
 }
 
-.home-page .card img {
+.home-page .card .vehicle-image {
   width: 128px;
   height: auto;
 }
@@ -148,6 +144,18 @@
 }
 
 .home-page .road-date p {
-  font-size: 0.6rem;
+  font-size: 0.5rem;
   text-transform: none;
+}
+
+.home-page .company-logo {
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.home-page .company-logo img {
+  width: 80px;
+  height: auto;
 }
