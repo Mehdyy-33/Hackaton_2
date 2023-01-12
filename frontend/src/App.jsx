@@ -1,7 +1,5 @@
-import EntrepriseDash from "./pages/Entreprise/EntrepriseDash";
-
 import "./App.css";
-import EntrepriseAd from "@pages/Entreprise/EntrepiseAd";
+import EntrepriseAd from "./pages/Entreprise/EntrepiseAd";
 
 function App() {
   return (

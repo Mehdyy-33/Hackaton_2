@@ -11,8 +11,12 @@ function EntrepriseDash() {
       </div>
       <div className="contentContainer">
         <div className="activityButtons">
-          <button id="activeOrderBtn">TO RENT</button>
-          <button id="noOrderBtn">CAR POOL</button>
+          <button id="activeOrderBtn" type="button">
+            TO RENT
+          </button>
+          <button id="noOrderBtn" type="button">
+            CAR POOL
+          </button>
         </div>
         <div className="adsContainer">
           <div className="ads" id="location">
@@ -39,7 +43,7 @@ function EntrepriseDash() {
                 <div className="resaType">
                   <h1 id="type">RENTAL</h1>
                 </div>
-                <div className="destination"></div>
+                <div className="destination" />
               </div>
             </div>
           </div>
@@ -69,7 +73,7 @@ function EntrepriseDash() {
                 <div className="resaType">
                   <h1 id="type">CAR POOL</h1>
                 </div>
-                <div className="destination"></div>
+                <div className="destination" />
               </div>
             </div>
           </div>
@@ -99,7 +103,7 @@ function EntrepriseDash() {
                 <div className="resaType">
                   <h1 id="type">RENTAL</h1>
                 </div>
-                <div className="company"></div>
+                <div className="company" />
               </div>
             </div>
           </div>
@@ -130,7 +134,7 @@ function EntrepriseDash() {
                   <h1 id="type">CAR POOL</h1>
                 </div>
 
-                <div className="destination"></div>
+                <div className="destination" />
               </div>
             </div>
           </div>
@@ -138,25 +142,45 @@ function EntrepriseDash() {
       </div>
       <div className="rightContainer">
         <div className="addDiv">
-          <button id="manage">Manage Fleet</button>
+          <button id="manage" type="button">
+            Manage Fleet
+          </button>
 
-          <button id="ad">Post an ad</button>
+          <button id="ad" type="button">
+            Post an ad
+          </button>
         </div>
         <div className="deleteModifyBtn">
-          <button id="actionBtn">Edit</button>
-          <button id="actionBtn">Delete</button>
+          <button id="actionBtn" type="button">
+            Edit
+          </button>
+          <button id="actionBtn" type="button">
+            Delete
+          </button>
         </div>
         <div className="deleteModifyBtn">
-          <button id="actionBtn">Edit</button>
-          <button id="actionBtn">Delete</button>
+          <button id="actionBtn" type="button">
+            Edit
+          </button>
+          <button id="actionBtn" type="button">
+            Delete
+          </button>
         </div>
         <div className="deleteModifyBtn">
-          <button id="actionBtn">Edit</button>
-          <button id="actionBtn">Delete</button>
+          <button id="actionBtn" type="button">
+            Edit
+          </button>
+          <button id="actionBtn" type="button">
+            Delete
+          </button>
         </div>
         <div className="deleteModifyBtn">
-          <button id="actionBtn">Edit</button>
-          <button id="actionBtn">Delete</button>
+          <button id="actionBtn" type="button">
+            Edit
+          </button>
+          <button id="actionBtn" type="button">
+            Delete
+          </button>
         </div>
       </div>
     </div>

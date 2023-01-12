@@ -4,16 +4,16 @@ function EntrepriseAd() {
   return (
     <div className="container">
       <div className="adType">
-        <button>TO RENT</button>
-        <button>CAR POOL</button>
+        <button type="button">TO RENT</button>
+        <button type="button">CAR POOL</button>
       </div>
       <div className="adForm">
         <div className="adContainer">
           {" "}
           <form action="/action_page.php">
-            <div class="row">
+            <div className="row">
               <div className="col-25">
-                <label for="vehicule" id="labelVehi">
+                <label htmlFor="vehicule" id="labelVehi">
                   Vehicule
                 </label>
               </div>
@@ -25,9 +25,9 @@ function EntrepriseAd() {
                 </select>
               </div>
             </div>
-            <div class="row">
+            <div className="row">
               <div className="col-25">
-                <label for="brand" id="labelBrand">
+                <label htmlFor="brand" id="labelBrand">
                   Brand
                 </label>
               </div>
@@ -41,9 +41,9 @@ function EntrepriseAd() {
                 </select>
               </div>
             </div>
-            <div class="row">
+            <div className="row">
               <div className="col-25">
-                <label for="destination" id="labelDest">
+                <label htmlFor="destination" id="labelDest">
                   Destination:
                 </label>
               </div>
@@ -58,7 +58,7 @@ function EntrepriseAd() {
                 </select>
               </div>
               <div className="to">
-                <label for="destination">To</label>
+                <label htmlFor="destination">To</label>
               </div>
               <div className="destination">
                 <select id="destination" name="destination">
@@ -72,20 +72,20 @@ function EntrepriseAd() {
               </div>
             </div>
             <div className="row" id="dateContainer">
-              <label for="date" id="labelDate">
+              <label htmlFor="date" id="labelDate">
                 Date:
               </label>
               <div className="allDates">
-                <input type="date" value="2023-01-12" id="date"></input>
-                <label for="time" id="labelToDate">
+                <input type="date" value="2023-01-12" id="date" />
+                <label htmlFor="time" id="labelToDate">
                   To
                 </label>
-                <input type="date" value="2023-01-12" id="date2"></input>
+                <input type="date" value="2023-01-12" id="date2" />
               </div>
             </div>
-            <div class="row">
+            <div className="row">
               <div className="col-25">
-                <label for="time" id="labelTime">
+                <label htmlFor="time" id="labelTime">
                   Time:
                 </label>
               </div>
@@ -101,7 +101,7 @@ function EntrepriseAd() {
                 </select>
               </div>
               <div className="to">
-                <label for="time" id="labelToTime">
+                <label htmlFor="time" id="labelToTime">
                   To
                 </label>
               </div>
