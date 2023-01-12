@@ -1,5 +1,5 @@
 import React from "react";
-import "../services/Styles/Footer.css";
+import "../services/Styles/footer.css";
 import "../App.css";
 
 function Footer() {
@@ -7,7 +7,7 @@ function Footer() {
     <div className="footer">
       <div className="content">
         <div className="info">
-          <p className="footermessage">
+          <p className="depart">
             Smartfleet by AWS, service de location de véhicule et covoiturage à
             destination des entreprises pour les particuliers
           </p>

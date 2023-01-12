@@ -5,10 +5,12 @@ import ToRent from "./pages/ToRent";
 import "./App.css";
 // import "./assets/fonts/GT-America-Bold.otf";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Router>
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -17,10 +19,7 @@ function App() {
           <Route path="/loginFirm" element={<LoginUser />} />
         </Routes>
       </Router>
-      <Navbar />
-      {/* <Footer /> */}
-      <Navbar />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
