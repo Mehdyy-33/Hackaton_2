@@ -43,17 +43,6 @@
   cursor: pointer;
 }
 
-.home-page .filter-option:hover {
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0) translateZ(160px) translateZ(0) translateZ(160px);
-}
-
-.slide-fwd-center {
-  -webkit-animation: slide-fwd-center 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-    both;
-  animation: slide-fwd-center 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-}
-
 .home-page .content {
   display: flex;
   flex-direction: row;
@@ -70,12 +59,12 @@
   align-items: center;
   justify-content: flex-start;
   width: 12vw;
-  height: 32vh;
+  height: 34vh;
   margin-bottom: 1rem;
   padding: 5px;
   border-radius: 1rem;
-  -webkit-box-shadow: 1px 2px 6px 0px #fff;
-  box-shadow: 1px 2px 6px 0px #fff;
+  -webkit-box-shadow: 0px 0px 3px 0px #fff;
+  box-shadow: 0px 0px 3px 0px #fff;
   border: #fff solid 1px;
 }
 
