@@ -1,5 +1,5 @@
 import React from "react";
-import "../services/Styles/HomePage.css";
+import "../styles/HomePage.css";
 import data from "../utils/dataVehicles";
 import logo from "../assets/logo.png";
 import conduite from "../assets/conduite.png";
